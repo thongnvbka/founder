@@ -1,0 +1,207 @@
+/* CSS Reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Averta;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} */
+
+/* Header */
+
+header h1 {
+  font-weight: bold;
+}
+
+header nav .nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav .nav-link:hover {
+  color: #ffd700;
+}
+
+/* Section Giới thiệu */
+/* section.py-5.text-white {
+  background: linear-gradient(135deg, #003b73, #1a73e8);
+} */
+
+section.py-5.text-white .btn-light {
+  border: 2px solid #fff;
+}
+
+/* Section Thành viên */
+section.py-5 img.rounded-circle {
+  border: 3px solid #003b73;
+}
+
+section.py-5 h5.fw-bold {
+  color: #003b73;
+}
+
+/* Section Dịch vụ tư vấn */
+section.bg-light .card {
+  transition: transform 0.3s;
+}
+
+section.bg-light .card:hover {
+  transform: scale(1.05);
+}
+
+/* Section Lời chứng thực */
+section.py-5 blockquote {
+  font-style: italic;
+  color: #555;
+}
+
+/* Section Case Study */
+section.bg-light .card-title {
+  font-weight: bold;
+  color: #003b73;
+}
+
+section.bg-light .btn-primary {
+  background-color: #003b73;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background: #002244;
+}
+.logo {
+  width: 100px;
+  /* height: 100px; */
+  margin: 0 auto;
+  display: block;
+}
+
+/*css header*/
+
+#navbarNav .navbar-nav .nav-item a {
+  color: var(--Text-On-BG, #fff);
+  text-align: center;
+
+  /* Subtitle/Small */
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+
+#navbarNav .navbar-nav .nav-item a:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.intro {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.intro h2 {
+  color: var(--Text-On-BG, #fff);
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Title/Medium */
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: Averta;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+  text-transform: uppercase;
+}
+.intro p {
+  /* Subtitle/Medium */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 0px 4rem;
+  margin-top: 1rem;
+}
+.intro p span {
+  color: #ffd700;
+}
+.intro .btn {
+  font-size: 20px;
+  display: flex;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1.5px solid #fff;
+  width: 15rem;
+  margin: auto;
+  background-color: transparent;
+  color: #fff;
+}
+
+/*slogan*/
+
+.slogan {
+  /* background-color: #fff; */
+}
+
+.slogan h2 {
+  color: #25324b;
+  /* Body/xLarge */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+.slogan .slogan-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* expert */
+
+.expert {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}

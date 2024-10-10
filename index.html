@@ -2,144 +2,135 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1GC Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        /* Header */
-        header {
-            background: #003b73;
-        }
-
-        header h1 {
-            font-weight: bold;
-        }
-
-        header nav .nav-link {
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        header nav .nav-link:hover {
-            color: #ffd700;
-        }
-
-        /* Section Giới thiệu */
-        section.py-5.text-white {
-            background: linear-gradient(135deg, #003b73, #1a73e8);
-        }
-
-        section.py-5.text-white .btn-light {
-            border: 2px solid #fff;
-        }
-
-        /* Section Thành viên */
-        section.py-5 img.rounded-circle {
-            border: 3px solid #003b73;
-        }
-
-        section.py-5 h5.fw-bold {
-            color: #003b73;
-        }
-
-        /* Section Dịch vụ tư vấn */
-        section.bg-light .card {
-            transition: transform 0.3s;
-        }
-
-        section.bg-light .card:hover {
-            transform: scale(1.05);
-        }
-
-        /* Section Lời chứng thực */
-        section.py-5 blockquote {
-            font-style: italic;
-            color: #555;
-        }
-
-        /* Section Case Study */
-        section.bg-light .card-title {
-            font-weight: bold;
-            color: #003b73;
-        }
-
-        section.bg-light .btn-primary {
-            background-color: #003b73;
-            border: none;
-        }
-
-        /* Footer */
-        footer {
-            background: #002244;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style></style>
 </head>
 
-<body>
+<body style="background-image: url(../img/bg-home.png); background-size: cover">
     <!-- Header -->
-    <header class="bg-primary text-white py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center">
-                <img src="https://via.placeholder.com/50" alt="Logo" class="me-2">
-                <h1 class="h3 mb-0">1GC Consulting</h1>
-            </div>
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Về chúng tôi</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Dịch vụ</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Case Study</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Liên hệ</a></li>
-                </ul>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="img/logo.png" alt=" Logo" class="logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Về chúng tôi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Dịch vụ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Case Study</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
 
     <!-- Section Giới thiệu -->
-    <section class="py-5 text-white" style="background: linear-gradient(135deg, #003b73, #1a73e8);">
+    <section class="text-white">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h2 class="display-5">Về Chúng Tôi</h2>
-                    <p class="lead">1GC cung cấp những giải pháp tư vấn sáng tạo và hiệu quả, giúp doanh nghiệp phát
-                        triển bền vững và tối ưu hóa hiệu quả hoạt động.</p>
-                    <a href="#" class="btn btn-light">Tìm hiểu thêm</a>
+            <div class="intro row align-items-center">
+                <div style="
+              background-image: url(../img/intro.png);
+              background-size: cover;
+              border-radius: 32px;
+              padding-bottom: 4rem;
+            " class="col-md-7">
+                    <h2 class="mt-2">Về Chúng Tôi</h2>
+                    <p>
+                        1GC đặt mục tiêu trở thành
+                        <span>
+                            lựa chọn hàng đầu trong tư vấn chiến lược và quản trị thực
+                            thi</span>, giúp tăng giá trị cho các doanh nghiệp lớn tại Việt Nam và các
+                        tổ chức quốc tế muốn đầu tư vào Việt Nam.
+                    </p>
+
+                    <a href="#" class="btn btn-light">Về chúng tôi
+                        <span><svg width="39" height="38" viewBox="0 0 39 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M33.75 19.0026L25.8333 11.0859M33.75 19.0026L25.8333 26.9193M33.75 19.0026H5.25"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg> </span></a>
                 </div>
-                <div class="col-md-5">
-                    <div class="bg-primary p-4 rounded">
-                        <p>"1GC không ngừng nỗ lực để cung cấp các giải pháp và đội ngũ chuyên gia với nhiều năm kinh
-                            nghiệm trong các lĩnh vực đa dạng để hỗ trợ đối tác doanh nghiệp vượt qua thách thức."</p>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section slogan -->
+    <section class="slogan">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 slogan-area">
+                    <h2>
+                        1Globe Consulting hội tụ những nhân sự cấp cao có <span class="fw-bold"> bề dày kinh
+                            nghiệm chuyên môn và dẫn dắt sự chuyển đổi thành công </span> cho các
+                        doanh nghiệp có quy mô lớn ở Mỹ và Việt Nam.
+                    </h2>
+                    <svg width="222" height="179" viewBox="0 0 222 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M35.996 85.644H66.596V105.5H4.58L4.308 91.22L31.916 61.436C39.26 53.684 43.476 47.836 43.476 41.172C43.476 35.46 39.396 31.108 33.684 31.108C28.108 31.108 23.348 33.828 19.268 39.812L3.628 28.524C9.204 18.868 19.404 10.844 35.452 10.844C51.5 10.844 65.644 21.316 65.644 38.724C65.644 49.332 62.924 57.356 50.548 70.276L35.996 85.372V85.644ZM113.047 106.86C90.7434 106.86 75.9194 88.772 75.9194 58.716C75.9194 29.748 90.1994 10.844 113.047 10.844C135.351 10.844 150.175 28.796 150.175 58.716C150.175 87.956 135.895 106.86 113.047 106.86ZM113.047 86.324C121.887 86.324 127.599 77.348 127.599 58.716C127.599 42.26 122.703 31.38 113.047 31.38C104.479 31.38 98.6314 40.356 98.6314 58.716C98.6314 75.172 103.527 86.324 113.047 86.324Z"
+                            fill="#1E4696" />
+                        <path
+                            d="M192.382 81.5C191.277 81.5 190.382 80.6046 190.382 79.5V62.9567H173.5C172.395 62.9567 171.5 62.0612 171.5 60.9567V53.1469C171.5 52.0424 172.395 51.1469 173.5 51.1469H190.382V34.5C190.382 33.3954 191.277 32.5 192.382 32.5H200.618C201.723 32.5 202.618 33.3954 202.618 34.5V51.1469H219.5C220.605 51.1469 221.5 52.0424 221.5 53.1469V60.9567C221.5 62.0612 220.605 62.9567 219.5 62.9567H202.618V79.5C202.618 80.6046 201.723 81.5 200.618 81.5H192.382Z"
+                            fill="white" />
+                        <path
+                            d="M192.382 81.5C191.277 81.5 190.382 80.6046 190.382 79.5V62.9567H173.5C172.395 62.9567 171.5 62.0612 171.5 60.9567V53.1469C171.5 52.0424 172.395 51.1469 173.5 51.1469H190.382V34.5C190.382 33.3954 191.277 32.5 192.382 32.5H200.618C201.723 32.5 202.618 33.3954 202.618 34.5V51.1469H219.5C220.605 51.1469 221.5 52.0424 221.5 53.1469V60.9567C221.5 62.0612 220.605 62.9567 219.5 62.9567H202.618V79.5C202.618 80.6046 201.723 81.5 200.618 81.5H192.382Z"
+                            fill="#1E4696" />
+                        <rect y="126" width="222" height="52.8441" rx="12" fill="url(#paint0_linear_578_3874)" />
+                        <path
+                            d="M38.22 145.222H41.04V159.422H38.16L31.9 150.002H31.86V159.422H29.06V145.222H31.86L38.2 154.822H38.22V145.222ZM48.6377 148.402C46.9777 148.402 45.5377 147.342 45.3777 145.402H47.3577C47.3977 146.102 47.8577 146.662 48.6377 146.662C49.3577 146.662 49.8777 146.182 49.9177 145.402H51.9177C51.7777 147.122 50.5577 148.402 48.6377 148.402ZM50.8977 149.662H53.4977V159.422H51.0177V158.242H50.9577C50.2977 159.102 49.2977 159.582 48.0377 159.582C45.3377 159.582 43.3777 157.582 43.3777 154.562C43.3777 151.602 45.3577 149.502 47.9777 149.502C49.1377 149.502 50.1377 149.922 50.8377 150.762H50.8977V149.662ZM48.5177 157.242C49.8777 157.242 50.9977 156.182 50.9977 154.582C50.9977 153.022 49.9577 151.842 48.5377 151.842C47.1377 151.842 46.0177 152.902 46.0177 154.582C46.0177 156.162 47.0577 157.242 48.5177 157.242ZM67.9661 149.502C70.0861 149.502 71.4061 150.762 71.4061 153.742V159.422H68.7861V154.382C68.7861 152.822 68.3061 151.842 67.0861 151.842C65.9861 151.842 65.0861 152.782 65.0861 154.542V159.422H62.4661V154.382C62.4661 152.822 61.9661 151.842 60.7461 151.842C59.5661 151.842 58.6861 152.782 58.6861 154.542V159.422H56.0661V149.662H58.6861V150.962H58.7061C59.4661 150.002 60.5261 149.502 61.6261 149.502C62.9061 149.502 63.9261 149.982 64.5261 151.062H64.5661C65.3661 150.042 66.5661 149.502 67.9661 149.502ZM83.172 155.542H83.132L81.772 157.082V159.422H79.152V144.702H81.772V153.602H81.792L85.292 149.662H88.352L84.912 153.542L88.412 159.422H85.492L83.172 155.542ZM91.3733 148.282C90.4933 148.282 89.7533 147.562 89.7533 146.682C89.7533 145.802 90.4933 145.082 91.3733 145.082C92.2733 145.082 93.0133 145.802 93.0133 146.682C93.0133 147.562 92.2733 148.282 91.3733 148.282ZM90.0533 159.422V149.662H92.6733V159.422H90.0533ZM101.221 149.502C103.321 149.502 104.781 150.622 104.781 153.622V159.422H102.161V154.282C102.161 152.422 101.501 151.842 100.281 151.842C98.9611 151.842 98.0611 152.762 98.0611 154.502V159.422H95.4411V149.662H98.0611V150.922H98.1011C98.9011 149.982 100.021 149.502 101.221 149.502ZM113.117 149.502C115.217 149.502 116.717 150.582 116.717 153.562V159.422H114.097V154.222C114.097 152.422 113.437 151.842 112.197 151.842C110.797 151.842 109.897 152.722 109.897 154.462V159.422H107.277V144.702H109.897V150.842H109.937C110.737 149.942 111.877 149.502 113.117 149.502ZM130.245 149.502C132.345 149.502 133.805 150.622 133.805 153.622V159.422H131.185V154.282C131.185 152.422 130.525 151.842 129.305 151.842C127.985 151.842 127.085 152.762 127.085 154.502V159.422H124.465V149.662H127.085V150.922H127.125C127.925 149.982 129.045 149.502 130.245 149.502ZM143.24 149.662H145.84V158.302C145.84 161.342 144.5 163.542 140.76 163.542C139.22 163.542 137.9 163.202 136.74 162.562L137.36 160.342C138.32 160.882 139.28 161.262 140.52 161.262C142.36 161.262 143.3 160.282 143.3 159.082V158.102H143.24C142.56 158.842 141.58 159.242 140.4 159.242C137.7 159.242 135.74 157.282 135.74 154.442C135.74 151.562 137.64 149.502 140.26 149.502C141.36 149.502 142.4 149.882 143.18 150.662H143.24V149.662ZM140.88 156.882C142.32 156.882 143.34 155.822 143.34 154.342C143.34 152.842 142.26 151.882 140.88 151.882C139.42 151.882 138.4 152.882 138.4 154.362C138.4 155.902 139.48 156.882 140.88 156.882ZM154.25 149.502C156.35 149.502 157.85 150.582 157.85 153.562V159.422H155.23V154.222C155.23 152.422 154.57 151.842 153.33 151.842C151.93 151.842 151.03 152.722 151.03 154.462V159.422H148.41V144.702H151.03V150.842H151.07C151.87 149.942 153.01 149.502 154.25 149.502ZM161.783 148.282C160.903 148.282 160.163 147.562 160.163 146.682C160.163 145.802 160.903 145.082 161.783 145.082C162.683 145.082 163.423 145.802 163.423 146.682C163.423 147.562 162.683 148.282 161.783 148.282ZM160.463 159.422V149.662H163.083V159.422H160.463ZM170.271 146.842L169.271 148.342H166.871L169.091 145.342H171.411L173.751 148.342H171.331L170.311 146.842H170.271ZM174.951 154.442C174.951 154.762 174.951 155.222 174.891 155.382H168.031C168.351 156.542 169.271 157.262 170.531 157.262C171.571 157.282 172.331 156.822 172.871 156.162L174.571 157.742C173.731 158.802 172.311 159.582 170.351 159.582C167.491 159.582 165.331 157.582 165.331 154.522C165.331 151.562 167.391 149.502 170.171 149.502C173.031 149.502 174.951 151.582 174.951 154.442ZM170.251 151.802C169.191 151.802 168.351 152.382 168.051 153.502H172.351C172.091 152.482 171.391 151.802 170.251 151.802ZM170.371 161.222C171.251 161.222 171.991 161.942 171.991 162.822C171.991 163.702 171.251 164.422 170.371 164.422C169.471 164.422 168.731 163.702 168.731 162.822C168.731 161.942 169.471 161.222 170.371 161.222ZM188.943 149.502C191.063 149.502 192.383 150.762 192.383 153.742V159.422H189.763V154.382C189.763 152.822 189.283 151.842 188.063 151.842C186.963 151.842 186.063 152.782 186.063 154.542V159.422H183.443V154.382C183.443 152.822 182.943 151.842 181.723 151.842C180.543 151.842 179.663 152.782 179.663 154.542V159.422H177.043V149.662H179.663V150.962H179.683C180.443 150.002 181.503 149.502 182.603 149.502C183.883 149.502 184.903 149.982 185.503 151.062H185.543C186.343 150.042 187.543 149.502 188.943 149.502Z"
+                            fill="white" />
+                        <defs>
+                            <linearGradient id="paint0_linear_578_3874" x1="-65" y1="92" x2="137.817" y2="280.828"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7DA7FB" />
+                                <stop offset="1" stop-color="#02359A" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Section Thành viên -->
-    <section class="py-5">
+    <section class="py-5 expert">
         <div class="container">
-            <h2 class="text-center mb-4">Đội Ngũ Chuyên Gia</h2>
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
+            <div class="team row text-center">
+                <div class="col-md-6 mb-4">
                     <img src="https://via.placeholder.com/200" alt="Nguyễn Lê Quốc Anh"
-                        class="img-fluid rounded-circle mb-3">
+                        class="img-fluid rounded-circle mb-3" />
                     <h5 class="fw-bold">Nguyễn Lê Quốc Anh</h5>
                     <p>Founder</p>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <img src="https://via.placeholder.com/200" alt="Local Partner"
-                        class="img-fluid rounded-circle mb-3">
+                        class="img-fluid rounded-circle mb-3" />
                     <h5 class="fw-bold">Local Partner - Lê Thị Bích Phương</h5>
                     <p>20+ năm kinh nghiệm</p>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <img src="https://via.placeholder.com/200" alt="Local Partner"
-                        class="img-fluid rounded-circle mb-3">
+                        class="img-fluid rounded-circle mb-3" />
                     <h5 class="fw-bold">Local Partner - Nguyễn Thị Thu Hương</h5>
                     <p>20+ năm kinh nghiệm</p>
                 </div>
@@ -154,28 +145,34 @@
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Dịch vụ 1">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Dịch vụ 1" />
                         <div class="card-body">
                             <h5 class="card-title">Đầu tư và tài chính</h5>
-                            <p class="card-text">Tư vấn đầu tư hiệu quả và lập kế hoạch tài chính.</p>
+                            <p class="card-text">
+                                Tư vấn đầu tư hiệu quả và lập kế hoạch tài chính.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Dịch vụ 2">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Dịch vụ 2" />
                         <div class="card-body">
                             <h5 class="card-title">Tư vấn chiến lược kinh doanh</h5>
-                            <p class="card-text">Phát triển chiến lược kinh doanh phù hợp và tối ưu.</p>
+                            <p class="card-text">
+                                Phát triển chiến lược kinh doanh phù hợp và tối ưu.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Dịch vụ 3">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Dịch vụ 3" />
                         <div class="card-body">
                             <h5 class="card-title">Quản trị nhân sự</h5>
-                            <p class="card-text">Hỗ trợ quản trị và phát triển nguồn nhân lực.</p>
+                            <p class="card-text">
+                                Hỗ trợ quản trị và phát triển nguồn nhân lực.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -188,9 +185,14 @@
         <div class="container">
             <div class="text-center">
                 <blockquote class="blockquote">
-                    <p class="mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum, felis eu
-                        suscipit vulputate, velit nisl lacinia odio, ut sollicitudin felis nulla id eros."</p>
-                    <footer class="blockquote-footer">Nguyễn Lê Quốc Anh, <cite title="Founder">Founder</cite></footer>
+                    <p class="mb-4">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                        bibendum, felis eu suscipit vulputate, velit nisl lacinia odio, ut
+                        sollicitudin felis nulla id eros."
+                    </p>
+                    <footer class="blockquote-footer">
+                        Nguyễn Lê Quốc Anh, <cite title="Founder">Founder</cite>
+                    </footer>
                 </blockquote>
             </div>
         </div>
@@ -203,13 +205,15 @@
             <div class="card mb-4">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Case Study">
+                        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Case Study" />
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula
-                                libero nec libero feugiat varius.</p>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                vehicula libero nec libero feugiat varius.
+                            </p>
                             <a href="#" class="btn btn-primary">Xem thêm</a>
                         </div>
                     </div>
