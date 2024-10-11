@@ -205,3 +205,277 @@ footer {
   align-items: center;
   margin-top: 5rem;
 }
+
+.expert .founder-1 {
+  height: 584px;
+  border-radius: 24px;
+  flex: 1 0 0;
+  margin-right: 24px;
+}
+
+.expert .founder-1 .founder-1-info {
+  display: block;
+  text-align: right;
+  width: 289px;
+  height: 239px;
+  float: right;
+  padding: 24px 24px 24px 0;
+}
+
+.expert .founder-1 .founder-1-info h5 {
+  color: #1e4696;
+  text-align: right;
+
+  /* Body/2xLarge */
+  font-family: Averta;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 150%; /* 48px */
+}
+
+.expert .founder-1 .founder-1-info h6 {
+  color: #1e4696;
+  text-align: center;
+
+  /* Subtitle/Large */
+  font-family: Averta;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.expert .founder-1 .founder-1-info p {
+  color: #1e4696;
+  text-align: right;
+
+  /* Body/Large */
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 150%; /* 30px */
+}
+
+.expert .team .partner {
+  padding: 24px 12px 12px 0;
+  margin: 0 12px !important;
+  border-radius: 24px;
+}
+.expert .team .partner h5 {
+  color: #1e4696;
+  text-align: center;
+
+  /* Body/xLarge */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 150%; /* 36px */
+}
+
+.expert .team .partner h6 {
+  color: #1e4696;
+  text-align: center;
+
+  /* Subtitle/Medium */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 150%; /* 36px */
+}
+.expert .btn,
+.advise .btn {
+  font-size: 20px;
+  display: flex;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  width: 24rem;
+  margin: auto;
+  background-color: transparent;
+  color: var(--nn-ti, #253e8a);
+  border-radius: 100px;
+  border: 1.5px solid var(--nn-ti, #253e8a);
+}
+
+/*service*/
+
+.advise h2 {
+  color: #253e8a;
+  text-align: center;
+  /* Title/Medium */
+  font-family: Averta;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+  text-transform: capitalize;
+}
+
+.advise .btn-advise {
+  padding: 74px 30px;
+  text-align: center;
+  border-radius: 12px;
+  background: linear-gradient(259deg, #25b04b -70.84%, #263e8f 96.62%), #f5f8ff;
+}
+.advise .btn-advise h5 {
+  color: var(--Text-On-BG, #fff);
+  text-align: center;
+
+  /* Subtitle/Small */
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+.advise .item {
+  margin: auto;
+}
+
+/*loi chung thuc*/
+
+.attestation .attestation-main {
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.06);
+}
+.attestation .attestation-main p {
+  color: #25324b;
+  font-family: Averta;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 48px */
+}
+
+.attestation .attestation-main h6 {
+  color: #04418c;
+  /* Subtitle/xLarge */
+  font-family: Averta;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5rem;
+}
+
+.attestation .attestation-main h5 {
+  color: #04418c;
+  /* Body/xLarge */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+.attestation .attestation-main .attestation-main-left {
+  padding-left: 48px;
+  padding-top: 72px !important;
+}
+
+/*case study*/
+
+.case-study h2 {
+  color: #253e8a;
+  text-align: center;
+
+  /* Title/Medium */
+  font-family: Averta;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+  text-transform: capitalize;
+}
+
+.case-study .card-body {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.case-study .case-study-post .card-body-left h5 {
+  color: #fff;
+  /* Title/Small */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+}
+
+.case-study .case-study-post .card-body-left p {
+  color: #fff;
+  /* Body/Small */
+  font-family: Averta;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.case-study .card-body-left {
+  padding: 24px 0;
+}
+
+.case-study .case-study-post .btn {
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  color: #fff;
+}
+
+.case-study .case-study-post .card-body-left {
+  margin-right: 20px;
+}
+
+.case-study .btn-more {
+  border-radius: 100px;
+  border: 1.5px solid #fff;
+  color: #fff;
+}
+
+/*contact*/
+
+.contact .contact-form h5 {
+  color: #233f87;
+  font-family: Averta;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  text-transform: uppercase;
+}
+
+.contact .contact-form form input {
+  border: unset;
+  border-bottom: 1px solid #233f87;
+  border-radius: unset;
+}
+.contact .contact-form form button {
+  margin-top: 48px;
+  border-radius: 100px;
+  border: 1.5px solid #253e8a;
+  color: var(--nn-ti, #253e8a);
+  text-align: right;
+  /* Button/Default */
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+
+.contact .contact-form form input::placeholder {
+  color: #807d7e;
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
