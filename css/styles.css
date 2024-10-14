@@ -112,7 +112,7 @@ footer {
 
 #navbarNav .navbar-nav .nav-item a {
   color: var(--Text-On-BG, #fff);
-  text-align: center;
+  /* text-align: center; */
 
   /* Subtitle/Small */
   font-family: Averta;
@@ -127,7 +127,7 @@ footer {
 }
 
 .intro {
-  margin-top: 20rem;
+  margin-top: 80rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -428,10 +428,15 @@ footer {
   background: rgba(0, 0, 0, 0.2);
   font-size: 14px;
   color: #fff;
+  flex: 35% 0;
+  border-radius: 100px;
+  border: unset;
+  width: fit-content;
 }
 
 .case-study .case-study-post .card-body-left {
   margin-right: 20px;
+  flex: 72%;
 }
 
 .case-study .btn-more {
@@ -456,6 +461,7 @@ footer {
   border: unset;
   border-bottom: 1px solid #233f87;
   border-radius: unset;
+  background-color: transparent;
 }
 .contact .contact-form form button {
   margin-top: 48px;
@@ -478,4 +484,52 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 30px */
+}
+
+/*css footer*/
+
+.footer-home .social p {
+  /* Body/xLarge */
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+.footer-home .social ul {
+  padding-left: 0 !important;
+}
+
+.footer-home .social ul li {
+  width: 56.317px;
+  height: 56.479px;
+  flex-shrink: 0;
+  list-style: none;
+}
+
+.footer-home .social .info span {
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-top: auto;
+}
+
+.footer-home .social .info p a {
+  color: #fff !important;
+  font-family: Averta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  text-decoration: none;
+}
+
+.footer-home .social .info {
+  display: flex;
+  flex-direction: column;
+
+  color: #fff !important;
 }
